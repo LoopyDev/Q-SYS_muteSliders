@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "type": "LuaModule",
+  "author": "loopydev@outlook.com",
+  "description": "Using a UCI fader and toggle to create a more intuitive volume control UI.",
+  "requiredVersion" : "9.5"
+}
