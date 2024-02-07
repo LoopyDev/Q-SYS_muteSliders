@@ -5,7 +5,7 @@
 This module allows you to create pairs of volume sliders and mute toggles which work in tandem, influencing each other and providing a visual indication of the mute state.
 
 ## Module operation
-The logic is contained within the init.lua file, which should become accessible in your UCI script after installing this module (step 3 in 'Setup Instructions' below. Changing Control element styles requires the appropriate stylesheet to be installed in the Q-Sys design file. I have supplied a sample stylesheet, but for more elaborate visual changes, this will need to be modified, or added to an existing stylesheet within your design. The CSS classes are dynamically reassigned, and you can adjust them in the init.lua file. 
+The logic is contained within the init.lua file, which should become accessible in your UCI script after installing this module (step 3 in 'Setup Instructions' below). You will need to add a fader and toggle manually, then declare both in the UCI script (steps 6 and 7 in the 'Setup Instructions' below). Changing Control element styles requires the appropriate stylesheet to be installed in the Q-Sys design file. I have supplied a sample stylesheet, but for more elaborate visual changes, this will need to be modified, or added to an existing stylesheet within your design. The CSS classes are dynamically reassigned, and you can adjust them in the init.lua file. 
 
 ## Setup Instructions
 
