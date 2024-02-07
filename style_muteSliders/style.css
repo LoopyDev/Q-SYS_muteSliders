@@ -1,0 +1,24 @@
+/* 
+░█████╗░░██████╗░██████╗
+██╔══██╗██╔════╝██╔════╝
+██║░░╚═╝╚█████╗░╚█████╗░
+██║░░██╗░╚═══██╗░╚═══██╗
+╚█████╔╝██████╔╝██████╔╝ 
+░╚════╝░╚═════╝░╚═════╝░ */
+/* 
+█▀▀ ▄▀█ █▀▄ █▀▀ █▀█ █▀
+█▀░ █▀█ █▄▀ ██▄ █▀▄ ▄█ */
+.fader_unmuted {
+    background-color: blue;
+}
+.fader_muted {
+    opacity: 0.3;
+    background-color: rgb(87, 87, 87);
+}
+
+.muteToggle {
+    background-color: green;
+}
+.muteToggle:value(1) {
+    background-color: red;
+}
