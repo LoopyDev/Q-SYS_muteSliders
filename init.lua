@@ -7,7 +7,11 @@ muteSliders = {}
 --};
 sliderSystem = {}
 
--- Call this function to add a slider, passing it a fader and a toggle.
+-- This is the only function which needs to be called in the UCI script, 
+-- apart from 'something = require('Q-Sys_muteSliders')'.
+-- A fader and toggle need to be passed to it, in order for them to cooperate. 
+-- It then adds them to an array which is used to programatically create 
+-- appropriate eventhandlers for toggling values and CSS styles.
 function muteSliders.addSlider(fader, toggle)
     if sliderSystem == nil then sliderSystem = {} end
     -- Initialize slider_position_at_mute for each pair, 
